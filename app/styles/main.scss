@@ -33,7 +33,9 @@ body {
     background-image: -webkit-linear-gradient(bottom, #005069 0%, #003545 100%);
     /* W3C Markup, IE10 Release Preview */ 
     background-image: linear-gradient(to top, #005069 0%, #003545 100%);
+    box-shadow: 0px 0px 4px #000000;
 }
+
  
 .name {
     display: inline-block;
@@ -46,7 +48,7 @@ body {
     border-radius: 4px;
     padding-top: 3px;
     padding-bottom: 2px;
-    padding-left: 5px;
+    padding-left: 0px;
  
     input {
         display: inline-block;
@@ -78,7 +80,6 @@ body {
     margin: 10px auto;
     text-align: center;
     border-radius: 4px;
-
 }
  
 .save-button {
@@ -86,17 +87,28 @@ body {
     background-color: #036A00;
     border: 2px solid #036100;
 }
+
+.save-button:hover {
+    box-shadow: 0px 0px 5px #036100;
+}
  
 .delete-button {
     background-color: #F60B00;
     border: 2px solid #D40900;
     color: white;
 }
+.delete-button:hover {
+    box-shadow: 0px 0px 5px #D40900;
+}
  
 .edit-button {
     background-color: #777777;
     border: 2px solid #656565;
     color: white;
+}
+
+.edit-button:hover {
+    box-shadow: 0px 0px 5px #656565;
 }
 
 .container {
