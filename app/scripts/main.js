@@ -67,7 +67,6 @@ UserView = Backbone.View.extend({
     }
 })
  
- 
 // create instances
 var coolUsers = new UserCollection();
 coolUsers.fetch().done(function(){
